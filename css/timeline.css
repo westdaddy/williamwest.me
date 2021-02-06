@@ -82,7 +82,8 @@ body {
     @media screen and (max-width: 1060px) {
         .timeline {width:100%;left: 0px;}
         .timeline:before {width:5px;}
-        .timeline > li {padding-left:0px;}
+        .timeline > li {padding-left:0px;top: 30px;}
+        ul.timeline > li > .timeline-panel {margin-left: 20px;}
         }
     }
 
