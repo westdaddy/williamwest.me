@@ -1,16 +1,10 @@
-body {
-  background-color: white;
-}
-
-
 .timeline {
   margin: 0;
   padding: 0;
-  width: 80%;
   margin-top: 50px;
   list-style: none;
   position: relative;
-  left: 50px;
+  left: 0px;
 }
 
 .timeline h4 {
