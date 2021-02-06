@@ -81,7 +81,7 @@ body {
         .timeline {width:auto;left: 0px;}
         .timeline:before {width:5px;}
         .timeline > li {padding-left:0px;top: 30px;}
-        ul.timeline > li > .timeline-panel {margin-left: 0px;}
+        .timeline-panel {margin: 0; padding: 0;}
         .timeline h4 {position: relative; left: 50px;}
         }
     }
