@@ -3,7 +3,14 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Open Sans Condensed', sans-serif;
+}
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #F7F2F7;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h1, h2, h3, h4, div#top > p {
@@ -44,6 +51,16 @@ div.container {
   margin: 0 auto;
 }
 
+div.wrapper {
+  min-height: 100%;
+  margin-bottom: -60px;
+}
+
+#footer, #push,
+ {
+  height: 50px;
+}
+
 div#content {
   float: left;
   width: 100%;
@@ -57,12 +74,17 @@ p {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-div#top, div#footer {
+div#top, footer#footer {
   background-color:  #915C99;
   margin: 0 0 0px 0;
   padding: 15px 0;
-  float: left;
   width: 100%;
+  float: left;
+}
+
+footer#footer {
+  float: left;
+  padding: 0;
 }
 
 div#top h1 {
@@ -87,7 +109,7 @@ div#top p {
   text-align: right;
 }
 
-div#footer p {
+footer#footer p {
   color: white;
 }
 
