@@ -78,6 +78,12 @@ body {
     .timeline-body > p + p {
     }
 
+    /* Media Queries: Tablet Landscape */
+    @media screen and (max-width: 1060px) {
+        .timeline {width:100%;left: 0px;}
+        }
+    }
+
 @media (max-width: 767px) {
 
     }
