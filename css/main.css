@@ -1,0 +1,140 @@
+body {
+  background-color: #F7F2F7;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #F7F2F7;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, div#top > p {
+  font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+  font-size: 90px;
+  padding: 0;
+  margin: 0;
+}
+
+h2{
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+h1, h2, h3, h4 {
+  letter-spacing:-2;
+  color: #4C2F4C;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:hover {
+  color: #915C99;
+}
+
+a:visited {
+  color: #915C99;
+}
+
+div.container {
+  width: 40%;
+  margin: 0 auto;
+}
+
+div.wrapper {
+  min-height: 100%;
+  margin-bottom: -60px;
+}
+
+#footer, #push,
+ {
+  height: 50px;
+}
+
+div#content {
+  float: left;
+  width: 100%;
+}
+
+p {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 22px;
+  line-height: 2;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+div#top, footer#footer {
+  background-color:  #915C99;
+  margin: 0 0 0px 0;
+  padding: 15px 0;
+  width: 100%;
+  float: left;
+}
+
+footer#footer {
+  float: left;
+  padding: 0;
+}
+
+div#top h1 {
+  color: white;
+  float: left;
+  margin: 0;
+}
+
+div#top h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+div#top p {
+  font-size: 18px;
+  padding: 0px ;
+  color: white;
+  float: right;
+  width: 35%;
+  margin: 20px 0;
+  line-height: 1;
+  text-align: right;
+}
+
+footer#footer p {
+  color: white;
+}
+
+div.panel {
+  margin: 20px auto;
+  padding: 20px 30px;
+  height: auto;
+  background-color: #E6D9E8;
+  /*border: 1px #6A9226 solid;*/
+  text-align: left;
+}
+
+div.panel img {
+  width:100%;
+}
+
+div.panel p.date {
+  font-size: 95% ;
+  color: #915C99;
+  padding: 0;
+  margin: 5px 0;
+}
+
+input#jig {
+  font-size:12px;
+  height: 15%;
+  width: 40%;
+}
