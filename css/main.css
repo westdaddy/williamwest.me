@@ -141,7 +141,8 @@ input#jig {
 
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
-    .container { width:100%; }
+    div.container { width:100%; }
+    div#top p {width: 100%;}
 }
 
 /* Media Queries: Tabled Portrait */
