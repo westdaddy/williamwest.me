@@ -142,8 +142,8 @@ input#jig {
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
     div.container { width:100%; }
-    h1 {font-size: 3em;}
-    div#top p {width: 95%;}
+    h1, div#top h1 {font-size: 3em; width: auto; float: none; padding-left: 20px;}
+    div#top p {width: auto; padding: 0 20px;}
     div#top div.container { width: 100%;}
     }
 }
