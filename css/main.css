@@ -144,6 +144,8 @@ input#jig {
     div.container { width:100%; }
     h1 {font-size: 3em;}
     div#top p {width: 100%;}
+    div#top div.container { padding: 0 20px;}
+    }
 }
 
 /* Media Queries: Tabled Portrait */
