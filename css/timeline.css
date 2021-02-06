@@ -43,15 +43,19 @@
 
         .timeline > li > .timeline-badge {
             color: #fff;
-            width: d;
             height: auto;
-            padding: 0 20px;
-            line-height: 50px;
+            width: ;
+            padding: 10px 20px;
             text-align: center;
             position: absolute;
             top: 0px;
             background-color: #915C99;
             z-index: 100;
+        }
+
+        ul.timeline > li > .timeline-badge {
+            left: 0px;
+            top: 0;
         }
 
 
@@ -76,7 +80,8 @@
         .timeline:before {width:5px;}
         .timeline li { padding-left:0px; top: 30px;}
         ul.timeline > li > .timeline-panel {margin-left: 0; padding: 0 20px 20px;}
-        .timeline h4 {position: relative; text-align: right;}
+        .timeline h4 {position: relative; }
+        .timeline > li > .timeline-badge {width: 100%;position:relative; }
         }
     }
 
@@ -87,24 +92,8 @@
 
 
 
-    ul.timeline > li > .timeline-badge {
-        left: 0px;
-        top: 0;
-    }
 
 
 
-        ul.timeline > li > .timeline-panel:before {
-            border-left-width: 0;
-            border-right-width: 15px;
-            left: -15px;
-            right: auto;
-        }
 
-        ul.timeline > li > .timeline-panel:after {
-            border-left-width: 0;
-            border-right-width: 14px;
-            left: -14px;
-            right: auto;
-        }
 }
