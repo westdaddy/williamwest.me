@@ -72,7 +72,7 @@
 
     /* Media Queries: Tablet Landscape */
     @media screen and (max-width: 1060px) {
-        .timeline { width: auto; left: 0px; margin: 0; padding: 0;}
+        .timeline { width: auto; left: 5px;}
         .timeline:before {width:5px;}
         .timeline > li {padding-left:0px;top: 30px;}
         .timeline-panel {margin: 0; padding: 0;}
