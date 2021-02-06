@@ -36,10 +36,10 @@
 
 
 
-        .timeline > li > .timeline-panel {
-            padding: 20px 0;
+        ul.timeline > li > .timeline-panel {
+            padding: 0 0 30px;
+            margin-left: 50px;
         }
-
 
         .timeline > li > .timeline-badge {
             color: #fff;
@@ -74,8 +74,8 @@
     @media screen and (max-width: 1060px) {
         .timeline { width: auto; left: 5px;}
         .timeline:before {width:5px;}
-        .timeline > li {padding-left:0px;top: 30px;}
-        .timeline-panel {margin: 0; padding: 0;}
+        .timeline li { padding-left:0px; top: 30px;}
+        ul.timeline > li > .timeline-panel {margin-left: 0; padding: 0;}
         .timeline h4 {position: relative; left: 50px;}
         }
     }
@@ -85,21 +85,14 @@
 
     }
 
-    ul.timeline > li > .timeline-panel {
-        width: calc(100% - 90px);
-        width: -moz-calc(100% - 90px);
-        width: -webkit-calc(100% - 90px);
-    }
+
 
     ul.timeline > li > .timeline-badge {
         left: 0px;
         top: 0;
     }
 
-    ul.timeline > li > .timeline-panel {
-        padding-top: 0;
-        margin-left: 50px;
-    }
+
 
         ul.timeline > li > .timeline-panel:before {
             border-left-width: 0;
