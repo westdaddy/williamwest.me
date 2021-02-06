@@ -143,8 +143,8 @@ input#jig {
 @media screen and (max-width: 1060px) {
     div.container { width:100%; }
     h1 {font-size: 3em;}
-    div#top p {width: 100%;}
-    div#top div.container { padding: 0 20px;}
+    div#top p {width: 95%;}
+    div#top div.container { width: 100%;}
     }
 }
 
