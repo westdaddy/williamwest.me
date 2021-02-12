@@ -7,10 +7,6 @@
   left: 0px;
 }
 
-.timeline h4 {
-  color: #4C2F4C;
-}
-
 .timeline:before {
     top: 0;
     bottom: 0;
@@ -22,48 +18,63 @@
     margin-left: ;
 }
 
-    .timeline > li {
-        margin-bottom: 20px;
-        position: relative;
-        padding-left: 100px;
-    }
+.timeline > li {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 100px;
+}
 
-    .timeline > li img {
-        width: 100%;
-    }
-
-
+.timeline > li img {
+    width: 100%;
+}
 
 
 
-        ul.timeline > li > .timeline-panel {
-            padding: 0 0 30px;
-            margin-left: 50px;
-        }
 
-        .timeline > li > .timeline-badge {
-            color: #fff;
-            height: auto;
-            width: ;
-            padding: 10px 20px;
-            text-align: center;
-            position: absolute;
-            top: 0px;
-            background-color: #915C99;
-            z-index: 100;
-        }
 
-        ul.timeline > li > .timeline-badge {
-            left: 0px;
-            top: 0;
-        }
+ul.timeline > li > .timeline-panel {
+    padding: 0 0 30px;
+    margin-left: 50px;
+}
 
+.timeline > li > .timeline-badge {
+    color: #fff;
+    height: auto;
+    width: ;
+    padding: 10px 20px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    background-color: #915C99;
+    z-index: 100;
+    left: 0px;
+}
 
 .timeline-title {
-    margin-top: 0;
-    color: inherit;
-    font-size: 30px;
+  color: #915C99;
+  margin-top: 0;
+  font-size: 30px;
 }
+
+/* ORANGE FOR THE INDUS */
+.timeline > li.orange > .timeline-badge {
+    background-color: orange;
+}
+
+.orange h4 {
+  color: orange;
+}
+
+/*  GREEN FOR THE SUMER */
+.timeline > li.green > .timeline-badge {
+    background-color: green;
+}
+
+.green h4 {
+  color: green;
+}
+
+
 
 .timeline-body > p,
 .timeline-body > ul {
